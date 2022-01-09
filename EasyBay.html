@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EasyBay.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <title>Belt Exam</title>
+</head>
+<body>
+    <header>
+        <img id="headerImg1" src="leaf.png" alt="leaf">
+        <h1 class="bold">EasyBay</h1>
+        <input type="text" placeholder="Search for anything" name="search">
+        <button>Sign In</button>
+        <img id="headerImg2" onclick="cart()" src="cart-dark.png" alt="cart">
+    </header>
+    <div id="navbar">
+            <li><a href=""></a>Aeonium</li>
+            <li><a href=""></a>Andormischus</li>
+            <li><a href=""></a>Agave</li>
+            <li><a href=""></a>Aloe</li>
+            <li><a href=""></a>Anacampseros</li>
+            <li><a href=""></a>Aristaloe</li>
+            <li><a href=""></a>More...</li>
+    </div>
+    <div id="flex-box">
+        <div id="head">
+            <h1 class="bold">Your Source for Serious Succulent Specialties</h1>
+        </div>
+        <div id="main-content">
+            <div id="left">
+                <div id="discover">
+                    <h2>Discover succulent varieties one pot or rack at a time!</h2>
+                    <div id="discover-button">
+                        <button><h2>Discover</h2></button>
+                        <img class="arrow" src="arrow-light.png" alt="arrow">
+                    </div>
+                </div>
+                <div id="row-img">
+                    <img id="succulent-img" onmouseover="change(this)" onmouseout="change2(this)" src="succulents-1.jpg" alt="Succulent">
+                </div>
+            </div>
+            <div id="right">
+                <div id="suc-img">
+                    <img src="aloe-m.jpg" alt="aloe">
+                </div>
+                <div id="soothing-aloe">
+                    <button><h2>Soothing aloe</h2></button>
+                    <img class="arrow" src="arrow-light.png" alt="arrow">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="pic">
+                <img src="aeonium-s.jpg" alt="Aeonium">
+                <p>Aeonium</p>
+            </div>
+            <div class="pic">
+                <img src="aloe-s.jpg" alt="Agave">
+                <p>Agave</p>
+            </div>
+            <div class="pic">
+                <img src="cactus-s.jpg" alt="Cactus">
+                <p>Cactus</p>
+            </div>
+            <div class="pic">
+                <img src="echeveria-s.jpg" alt="Echeveria">
+                <p>Echeveria</p>
+            </div>
+            <div class="pic">
+                <img src="sedum-s.jpg" alt="Sedum">
+                <p>Sedum</p>
+            </div>
+            <div class="pic">
+                <img src="sempervivum-s.jpg" alt="Sempervivum">
+                <p>Sempervivum</p>
+            </div>
+        </footer>
+        <div id="alert">
+            <img src="alert-dark.png" alt="alert">
+            <div id="text">
+                <p>This site makes use of third-party cookies, by clicking "I Accept" you agree to the terms outlined in our <a href="https://en.wikipedia.org/wiki/Cookie">cookie policy</a></p>
+            </div>
+            <button class="btn" onclick="accept()">I Accept</button>
+        </div>
+    </div>
+
+    
+    <script src="Belt Exam.js"></script>
+</body>
+</html>
